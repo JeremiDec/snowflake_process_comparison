@@ -45,3 +45,5 @@ AS
        WAREHOUSE_NAME       => 'PROJECT_WH',
        END_TIME_RANGE_START => DATEADD('hour', -1, CURRENT_TIMESTAMP())))
     )                                                                 AS credits_used;
+
+SELECT * FROM PIPELINE_RUN_METRICS;
